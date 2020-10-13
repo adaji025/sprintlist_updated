@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: 'Crimson Pro', serif;
+}
+/* all images of the page */
+img {
+    max-width: 100%;
+}
+section#first_section {
+    background-image: url(../img/Rectangle\ 33-1.png);
+    height: 130vh;
+}
+/* navbar starts */
+nav.navbar ul li {
+    font-size: 1rem;
+} 
+nav.navbar ul li img {
+       margin-top: -15px;
+}
+nav.navbar ul li a {
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    background-color: #0864C9;
+    border-radius: 5px;
+}
+.header_text {
+    font-size: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.opacity {
+    opacity: 50%;
+}
+.header_text h1 span {
+    display: block;
+}
+.header_btn {
+    margin-top: 20px;
+}
+.header_btn span a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 10px 25px 10px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.header_btn span a:hover {
+    background: #0864C9;
+}
+#second_section {
+    margin-top: 0.5rem;
+}
+#second_section span img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+}
+.launch {
+    background: #ECF4FC;
+    height: 120px;
+    margin-top: 20px;
+    display: flex;
+}
+#logo1 {
+    width: 50px;
+    display: block;
+}
+#launch {
+    align-self: center;
+    margin: 0 20px 0 20px;
+}
+#midlle_text {
+    align-self: center;
+    font-size: 0.7rem;
+}
+#btn_launch  {
+    border: 1px solid white;
+    font-size: 0.4rem;
+    align-self: center;
+    padding: 7px 12px 7px 12px;
+    margin-left: 5px;
+    background: #0864C9;
+}
+.launch span a {
+     text-decoration: none;
+     color: #FFFFFF;
+     
+}
+#aim {
+    font-weight: bold;
+}
+.helping_founders {
+    margin: 60px;
+}
+#third_section div.col-md-6 div a {
+    display: inline-block;
+    border: 1px solid #0864C9;
+    margin-bottom: 50px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+}
+#third_section div.col-md-6 div a:hover {
+    background: #0864C9;
+    color: white;
+}
+.row{
+    margin-bottom: 60px;
+}
+#fouth_section a {
+    text-decoration: none; 
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+}
+#fouth_section a:hover {
+    background: #0864C9;
+    color: #ECF4FC;
+}
+.founders_and_designers {
+    background: rgba(228, 242, 251, 0.2);
+    display: flex;
+    margin-bottom: 40px;
+}
+.sprintList_for_founders {
+    padding: 30px 0 30px 0;
+}
+.founders_and_designers span a {
+    display: inline-block;
+    border: 1px solid #0864C9;
+    padding: 15px 30px 15px 30px;
+}
+.got_project {
+    display: flex;
+    align-items: flex-end;
+}
+div.container.got_project ul.ml-auto li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+footer {
+    background: #ECF4FC;
+    padding: 10px 0 10px 0;
+}
+footer form input {
+    height: 50px;
+}
+footer form a {
+    background-color: #0864C9;
+    padding: 15px 30px 15px 30px;
+}
+footer .social_media_logo {
+    margin: 30px 0 50px 0;
+}
+.col-md-4 span {
+    display: block;
+}
+.col-md-4 ul li {
+    list-style-type: none;
+}
+@media (min-width: 800px) {
+    nav.navbar ul li {
+    font-size: 2rem;
+    margin: 1rem;
+    }
+    section#first_section {
+        height: 200vh;
+    }
+    .header_text {
+        margin-top: 40px;
+    }
+    .header_btn span a {
+        padding: 15px 30px 15px 30px;
+    }
+    #second_section span img {
+        width: 100px;
+        height: 100px;
+        margin: 0 25px 0 25px;
+    }
+    #logo1 {
+        width: 100px;
+        display: block;
+    }
+    #midlle_text {
+        font-size: 1.5rem;
+        align-self: center;
+        margin-left: 40px;
+    }
+    #launch {
+        align-self: center;
+        margin: 0 20px 0 20px;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    #btn_launch {
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+    .helping_founders span {
+        display: block;
+    }
+    hr {
+        display: none;
+    }
+    footer form input {
+        height: 50px;
+        width: 850px;
+    }
+    footer form a {
+        background-color: #0864C9;
+        padding: 15px 70px 15px 70px;
+    }
+}
+@media (max-width: 1024px) {
+    nav.navbar ul li img {
+        display: none;
+    }
+}
